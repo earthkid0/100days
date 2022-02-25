@@ -1,8 +1,8 @@
-#내야할 금액
+# 내야할 금액
 pay = float(input("내야 할 금액 = "))
 print("내야할 금액 = ${0}")
 tip = int(input("내고 싶은 팁 10,12,15 ? = "))
-sum = round((pay * tip) + pay , 2)
+sum = round((pay * tip) + pay, 2)
 print("tip = ${0}".format(sum))
 people = int(input("같이 온 인원 = "))
 print("{0}명".format(people))

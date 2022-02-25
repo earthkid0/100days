@@ -28,5 +28,5 @@ if extra_cheese == "Y":
     pay += 1
 else:
     pay += 0
-    
+
 print("총 계산할 금액 = ${0} ".format(pay))
