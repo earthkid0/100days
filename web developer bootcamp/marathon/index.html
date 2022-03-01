@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration Form</title>
+</head>
+
+<body>
+    <h1>Race Registeation!</h1>
+    <form action="/dummy">
+        <div>
+            <label for="first">First Name</label>
+            <input type="text" name="name" id="first" required>
+        </div>
+        <div>
+            <label for="last">Last Name</label>
+            <input type="text" name="name" id="last" required>
+        </div>
+        <div>
+            <p>Select Race:</p>
+            <div>
+                <input type="radio" name="race" id="5k" value="5k">
+                <label for="5k">Fun Run 5k</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="half" value="half">
+                <label for="half">Half Marathon</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="full" value="full">
+                <label for="full">Full Marathon</label>
+            </div>
+        </div>
+        <br>
+        <div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age">
+                <option value="under 18">under 18</option>
+                <option value="18~25">18~25</option>
+                <option value="25~40">25~40</option>
+                <option value="40+">40+</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit">Register!</button>
+    </form>
+</body>
+
+</html>
