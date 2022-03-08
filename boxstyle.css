@@ -1,0 +1,25 @@
+div {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 10px;
+    
+}
+h1 {
+    width: 80px;
+    background: magenta;
+}
+#one {
+    border: 5px solid blue;
+    background: rgb(183, 217, 206);
+    border-radius: 10px;
+}
+#two {
+    border: 5px dashed #834949;
+    background: rgb(219, 226, 179);
+}
+#three {
+    border: 5px solid rgb(26, 80, 98);
+    background: hsla(0, 41%, 85%, 0.765);
+   border-left-style: dotted;
+}
