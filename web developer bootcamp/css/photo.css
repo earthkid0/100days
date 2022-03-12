@@ -1,0 +1,14 @@
+img {
+    width: 30%;
+    margin: 1.5%;
+}
+nav {
+    width: 30%;
+    padding: 0.5em 0;
+    margin-left: 1.5%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-bottom: 3px solid rgb(234, 224, 226);
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;
+}
