@@ -7,19 +7,25 @@ h1 {
     text-align: center;
 }
 nav {
+    text-decoration: none;
     font-size: 1.5em;
     display: flex;
     justify-content: space-between;
-    text-decoration: none;
-    
 }
+
+
 
 ul,li {
     display: inline;
-    margin: 0 5px;
+    margin: 0;
     padding: 0;
+}
+
+ul {
+    flex: 1;
+    max-width: 50%;
     display: flex;
-    text-decoration: none;
+    justify-content: space-evenly;
 }
 
 @media (min-width: 400px){
@@ -34,8 +40,8 @@ ul,li {
     }
 }
 @media (max-width:478px){
-    nav, ul, li {
+    nav, nav ul {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
     }
 }
