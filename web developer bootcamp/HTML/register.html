@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>회원 가입</title>
+    <style>
+        #container {
+            width: 600px;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>회원 가입을 환영합니다</h1>
+        <form action="/dummy">
+            <fieldset>
+                <legend>사용자 정보</legend>
+                <p>
+                    <label for="email">이메일:</label>
+                    <input type="email" id="email" name="eamil" required>
+                </p>
+                <p>
+                    <label for="password">비밀번호:</label>
+                    <input type="password" id="password" name="password" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>이벤트와 새로운 소식</legend>
+                <p>
+                    <input type="radio" name="mail" id="mail-on">
+                    <label for="mail-on">메일 수신</label>
+                </p>
+                <p>
+                    <input type="radio" name="mail" id="mail-off">
+                    <label for="mail-off">메일 수신 안함</label>
+                </p>
+            </fieldset>
+            <button type="submit">회원 가입</button>
+            <button type="reset">취소</button>
+        </form>
+    </div>
+</body>
+
+</html>
