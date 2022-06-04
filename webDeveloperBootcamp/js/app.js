@@ -1,5 +1,5 @@
-console.log("Hello World")
-document.write("Hello World")
+// console.log("Hello World")
+// document.write("Hello World")
 // for (let i = 0; i <= 20; i++) {
 //     if (i % 2 == 0) {
 //         console.log(i)
@@ -61,7 +61,7 @@ const names = ["reded", "dedede", "deedededededeed", "ededededwdwdwedwd", "asdas
 const str = names.filter(n => {
     return n.length < 10
 })
-names.forEach(m => {
+const name = names.forEach(m => {
     return console.log(m)
 });
 
