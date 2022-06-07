@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/explorer/views/styles.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>first home page</h1>
+    <nav>
+        <ul>
+            <li><a href="/home">home</a></li>
+            <li><a href="/blog">blog</a></li>
+            <li><a href="/aboutMe">about me</a></li>
+        </ul>
+    </nav>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, ut dolorum, dolore sequi ipsam quam nisi
+        aspernatur, quae explicabo quidem optio id voluptatem debitis culpa consectetur eius modi facere dignissimos!
+    </p>
+
+    <h2><%= 'hello world'.toUpperCase() %></h2>
+    <form action=`/r/${subreddit}`>
+        <label for="search">search:</label>
+        <input type="search" name="search" id="search">
+    </form>
+</body>
+
+</html>

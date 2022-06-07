@@ -34,19 +34,19 @@ app.get("/dogs", (req, res) => {
     res.send("woof!!");
 })
 
-app.get("/search", (req, res) => {
-    const { q } = req.query
-    if (!q) {
-        res.send("Not Found")
-    }
-    res.send(`search: ${q}`)
-})
+// app.get("/search", (req, res) => {
+//     const { q } = req.query
+//     if (!q) {
+//         res.send("Not Found")
+//     }
+//     res.send(`search: ${q}`)
+// })
 
 // app.get("*", (req, res) => {
 //     res.status(404).send("404")
 // })
 
-app.listen(3000, () => {
+app.listen(8080, () => {
     console.log("port 8080")
 })
 
