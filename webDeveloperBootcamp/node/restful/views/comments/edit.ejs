@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+</head>
+
+<body>
+    <h1>Edit Comment</h1>
+    <form action="/comments/<%= updateComment.id %>?_method=PATCH" method="POST">
+        <article>
+            <label for="username">username:</label>
+            <input type="text" name="username" id="username" placeholder="<%= updateComment.username %>">
+        </article>
+        <article>
+            <label for=" comment">comment:</label>
+            <br>
+            <textarea name="comment" id="" cols="26" rows="5"><%= updateComment.comment %></textarea>
+        </article>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
